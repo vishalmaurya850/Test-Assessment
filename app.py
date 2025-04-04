@@ -102,6 +102,8 @@ def rank_with_gemini(query, retrieved_assessments):
 
 @app.route("/recommend", methods=["POST"])
 def recommend():
+    if request.method == "OPTIONS":
+        return "", 200  # Handle CORS preflight
     data = request.get_json()
     query = data.get("query", "")
     if not query:
@@ -131,4 +133,5 @@ def recommend():
     return jsonify(response)
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    port = int(os.getenv("PORT", 5000))  # Default to 5000 locally, use Render's PORT in production
+    app.run(host="0.0.0.0", port=port, debug=True)

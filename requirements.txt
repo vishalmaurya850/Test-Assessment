@@ -1,0 +1,17 @@
+requests
+beautifulsoup4
+lxml
+pandas
+numpy
+openpyxl
+sentence-transformers
+scikit-learn
+transformers
+torch
+tensorflow
+faiss-cpu
+flask
+google-generativeai
+tf-keras
+python-dotenv
+flask-cors

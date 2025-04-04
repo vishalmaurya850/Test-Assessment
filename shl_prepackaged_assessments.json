@@ -1,0 +1,1379 @@
+[
+    {
+        "name": "Account Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/account-manager-solution/",
+        "description": "Account Manager Solution",
+        "duration": "Unknown",
+        "test_type": "C, P, A, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Administrative Professional - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/administrative-professional-short-form/",
+        "description": "Administrative Professional - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, K, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Agency Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/agency-manager-solution/",
+        "description": "Agency Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Apprentice + 8.0 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261/",
+        "description": "Apprentice + 8.0 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Apprentice 8.0 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/apprentice-8-0-job-focused-assessment/",
+        "description": "Apprentice 8.0 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Bank Administrative Assistant - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bank-administrative-assistant-short-form/",
+        "description": "Bank Administrative Assistant - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Bank Collections Agent - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bank-collections-agent-short-form/",
+        "description": "Bank Collections Agent - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Bank Operations Supervisor - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bank-operations-supervisor-short-form/",
+        "description": "Bank Operations Supervisor - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Bilingual Spanish Reservation Agent Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/",
+        "description": "Bilingual Spanish Reservation Agent Solution",
+        "duration": "Unknown",
+        "test_type": "B, P, S, A",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Bookkeeping, Accounting, Auditing Clerk Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/",
+        "description": "Bookkeeping, Accounting, Auditing Clerk Short Form",
+        "duration": "Unknown",
+        "test_type": "P, S, K, B, A",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Branch Manager - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/branch-manager-short-form/",
+        "description": "Branch Manager - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Cashier Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/cashier-solution/",
+        "description": "Cashier Solution",
+        "duration": "Unknown",
+        "test_type": "B, A, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Claims/Operations Supervisor Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/claimsoperations-supervisor-solution/",
+        "description": "Claims/Operations Supervisor Solution",
+        "duration": "Unknown",
+        "test_type": "P, S, A, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Contact Center Customer Service + 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-customer-service-8-0/",
+        "description": "Contact Center Customer Service + 8.0",
+        "duration": "Unknown",
+        "test_type": "A, B, C, P, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Customer Service 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-customer-service-8-0-4269/",
+        "description": "Contact Center Customer Service 8.0",
+        "duration": "Unknown",
+        "test_type": "S, B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Manager - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-manager-short-form/",
+        "description": "Contact Center Manager - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Contact Center Sales & Service + 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-sales-and-service-8-0/",
+        "description": "Contact Center Sales & Service + 8.0",
+        "duration": "Unknown",
+        "test_type": "P, B, C, A, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Sales & Service 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-sales-and-service-8-0-4268/",
+        "description": "Contact Center Sales & Service 8.0",
+        "duration": "Unknown",
+        "test_type": "S, B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Team Lead/Coach - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-team-leadcoach-short-form/",
+        "description": "Contact Center Team Lead/Coach - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Contact Centre Agent Solution - UK",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-centre-agent-solution-uk/",
+        "description": "Contact Centre Agent Solution - UK",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Customer Service - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-short-form/",
+        "description": "Customer Service - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Customer Service - Short Form - UK",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-short-form-uk/",
+        "description": "Customer Service - Short Form - UK",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Customer Service with Sales - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-with-sales-short-form/",
+        "description": "Customer Service with Sales - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Director - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/director-short-form/",
+        "description": "Director - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "District/Regional Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/districtregional-manager-solution/",
+        "description": "District/Regional Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Entry Level Cashier 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-cashier-7-1-%28americas%29/",
+        "description": "Entry Level Cashier 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, P, A",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry Level Cashier 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-cashier-7-1-%28international%29/",
+        "description": "Entry Level Cashier 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry Level Customer Service 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-customer-service-7-1-%28americas%29/",
+        "description": "Entry Level Customer Service 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry Level Customer Service 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-customer-service-%28retail-and-cc%29-7-1/",
+        "description": "Entry Level Customer Service 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry Level Customer Service 7.1 (South Africa)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-customer-service-7-1-%28south-africa%29/",
+        "description": "Entry Level Customer Service 7.1 (South Africa)",
+        "duration": "Unknown",
+        "test_type": "C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry level Sales 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-7-1-%28americas%29/",
+        "description": "Entry level Sales 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry level Sales 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-7-1/",
+        "description": "Entry level Sales 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "P, B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Entry Level Sales Sift Out 7.1",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-sales-sift-out-7-1/",
+        "description": "Entry Level Sales Sift Out 7.1",
+        "duration": "Unknown",
+        "test_type": "C, P, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Event Sales Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/event-sales-manager-solution/",
+        "description": "Event Sales Manager Solution",
+        "duration": "Unknown",
+        "test_type": "S, A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Executive - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/executive-short-form/",
+        "description": "Executive - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Financial Professional - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/financial-professional-short-form/",
+        "description": "Financial Professional - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Financial Services Representative Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/financial-services-representative-solution/",
+        "description": "Financial Services Representative Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Front Desk Associate Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/front-desk-associate-solution/",
+        "description": "Front Desk Associate Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Gaming Associate Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/gaming-associate-solution/",
+        "description": "Gaming Associate Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Gaming Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/gaming-manager-solution/",
+        "description": "Gaming Manager Solution",
+        "duration": "Unknown",
+        "test_type": "S, A, B, K, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "General Entry Level - All Industries 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/general-entry-level-all-industries-7-0-solution/",
+        "description": "General Entry Level - All Industries 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "General Entry Level - All Industries 7.1 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/general-entry-level-all-industries-7-1-solution/",
+        "description": "General Entry Level - All Industries 7.1 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "General Entry Level - All Industries 7.1(Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/general-entry-level-all-industries-7-1%28americas%29/",
+        "description": "General Entry Level - All Industries 7.1(Americas)",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "General Entry Level \u2013 Data Entry 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/general-entry-level-data-entry-7-0-solution/",
+        "description": "General Entry Level \u2013 Data Entry 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B, K",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Graduate + 8.0 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/graduate-8-0-job-focused-assessment/",
+        "description": "Graduate + 8.0 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Graduate 7.1 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/graduate-7-1-job-focused-assessment/",
+        "description": "Graduate 7.1 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Graduate 8.0 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/graduate-8-0-job-focused-assessment-4228/",
+        "description": "Graduate 8.0 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "P, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Guest Service Team 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/guest-service-team-7-0-solution/",
+        "description": "Guest Service Team 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Guest Services Associate Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/guest-services-associate-solution/",
+        "description": "Guest Services Associate Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Healthcare Aide 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/healthcare-aide-7-0-solution/",
+        "description": "Healthcare Aide 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Healthcare Call Center Agent Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/healthcare-call-center-agent-solution/",
+        "description": "Healthcare Call Center Agent Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Healthcare Service Associate Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/healthcare-service-associate-solution/",
+        "description": "Healthcare Service Associate Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Healthcare Support Specialist Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/healthcare-support-specialist-solution/",
+        "description": "Healthcare Support Specialist Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Home Health Aide Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/home-health-aide-solution/",
+        "description": "Home Health Aide Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Hospitality Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/hospitality-manager-solution/",
+        "description": "Hospitality Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Host Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/host-solution/",
+        "description": "Host Solution",
+        "duration": "Unknown",
+        "test_type": "B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Industrial - Entry Level 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-entry-level-7-0-solution/",
+        "description": "Industrial - Entry Level 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Industrial - Entry Level 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-entry-level-7-1-%28americas%29/",
+        "description": "Industrial - Entry Level 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Industrial - Entry Level 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-entry-level-7-1-%28international%29/",
+        "description": "Industrial - Entry Level 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Industrial - Professional and Skilled 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-professional-and-skilled-7-0-solution/",
+        "description": "Industrial - Professional and Skilled 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "A, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Industrial - Semi-skilled 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-semi-skilled-7-1-%28americas%29/",
+        "description": "Industrial - Semi-skilled 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Industrial - Semi-skilled 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-semi-skilled-7-1-%28international%29/",
+        "description": "Industrial - Semi-skilled 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Industrial Professional and Skilled 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-professional-and-skilled-7-1-%28americas%29/",
+        "description": "Industrial Professional and Skilled 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "A, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Industrial Professional and Skilled 7.1 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/industrial-professional-and-skilled-7-1-solution/",
+        "description": "Industrial Professional and Skilled 7.1 Solution",
+        "duration": "Unknown",
+        "test_type": "A, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Installation and Repair Technician Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/installation-and-repair-technician-solution/",
+        "description": "Installation and Repair Technician Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Insurance Account Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/insurance-account-manager-solution/",
+        "description": "Insurance Account Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Insurance Administrative Assistant Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/insurance-administrative-assistant-solution/",
+        "description": "Insurance Administrative Assistant Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Insurance Agent Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/insurance-agent-solution/",
+        "description": "Insurance Agent Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Insurance Director Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/insurance-director-solution/",
+        "description": "Insurance Director Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Insurance Sales Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/insurance-sales-manager-solution/",
+        "description": "Insurance Sales Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Manager - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-short-form/",
+        "description": "Manager - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Manager + 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-7-0-solution-3955/",
+        "description": "Manager + 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, C",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Manager + 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-7-1-solution-4242/",
+        "description": "Manager + 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Manager + 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-7-1-%28international%29/",
+        "description": "Manager + 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Manager 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-7-0-solution/",
+        "description": "Manager 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Manager 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-7-1-%28americas%29/",
+        "description": "Manager 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Manager 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-7-1-solution/",
+        "description": "Manager 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Manager 8.0 JFA",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-8-0-jfa/",
+        "description": "Manager 8.0 JFA",
+        "duration": "Unknown",
+        "test_type": "B, K, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Manager 8.0+ JFA",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manager-8-0-jfa-4310/",
+        "description": "Manager 8.0+ JFA",
+        "duration": "Unknown",
+        "test_type": "B, K, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Manufacturing Production Team Member",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manufacturing-production-team-member/",
+        "description": "Manufacturing Production Team Member",
+        "duration": "Unknown",
+        "test_type": "A, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Manufacturing Skilled Maintenance Worker",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/manufacturing-skilled-maintenance-worker/",
+        "description": "Manufacturing Skilled Maintenance Worker",
+        "duration": "Unknown",
+        "test_type": "A, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Network Engineer/Analyst Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/network-engineeranalyst-solution/",
+        "description": "Network Engineer/Analyst Solution",
+        "duration": "Unknown",
+        "test_type": "P, S, K, B, A",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Nurse Leader Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/nurse-leader-solution/",
+        "description": "Nurse Leader Solution",
+        "duration": "Unknown",
+        "test_type": "S, A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Nurse Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/nurse-solution/",
+        "description": "Nurse Solution",
+        "duration": "Unknown",
+        "test_type": "P, A, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Nursing Assistant Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/nursing-assistant-solution/",
+        "description": "Nursing Assistant Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Personal Banker - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/personal-banker-short-form/",
+        "description": "Personal Banker - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Phone Banker - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/phone-banker-short-form/",
+        "description": "Phone Banker - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Prep/Line Cook Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/prepline-cook-solution/",
+        "description": "Prep/Line Cook Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Professional + 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professional-7-0-solution-3958/",
+        "description": "Professional + 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, C",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Professional + 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professional-7-1-%28americas%29/",
+        "description": "Professional + 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Professional + 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professional-7-1-solution/",
+        "description": "Professional + 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Professional 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professional-7-0-solution/",
+        "description": "Professional 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Professional 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professional-7-1-solution-4247/",
+        "description": "Professional 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "C, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Professional 8.0 JFA",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professional-8-0-jfa/",
+        "description": "Professional 8.0 JFA",
+        "duration": "Unknown",
+        "test_type": "B, K, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Professional/Individual Contributor - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/professionalindividual-contributor-short-form/",
+        "description": "Professional/Individual Contributor - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Project Manager - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/project-manager-short-form/",
+        "description": "Project Manager - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Proof Operator - Processing Specialist -Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/proof-operator-processing-specialist-short-form/",
+        "description": "Proof Operator - Processing Specialist -Short Form",
+        "duration": "Unknown",
+        "test_type": "S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Reservation Agent Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/reservation-agent-solution/",
+        "description": "Reservation Agent Solution",
+        "duration": "Unknown",
+        "test_type": "A, P, S, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Restaurant Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/restaurant-manager-solution/",
+        "description": "Restaurant Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Restaurant Supervisor Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/restaurant-supervisor-solution/",
+        "description": "Restaurant Supervisor Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Retail Consultant Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/retail-consultant-solution/",
+        "description": "Retail Consultant Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Retail Manager w/ Sales Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/retail-manager-w-sales-solution/",
+        "description": "Retail Manager w/ Sales Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Retail Sales Associate Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/retail-sales-associate-solution/",
+        "description": "Retail Sales Associate Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Director Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-director-solution/",
+        "description": "Sales Director Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Engineer Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-engineer-solution/",
+        "description": "Sales Engineer Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-manager-solution/",
+        "description": "Sales Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Professional 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-professional-7-0-solution/",
+        "description": "Sales Professional 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "C, B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Sales Professional 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-professional-7-1-%28americas%29/",
+        "description": "Sales Professional 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Sales Professional Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-professional-solution/",
+        "description": "Sales Professional Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Representative Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-representative-solution/",
+        "description": "Sales Representative Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Supervisor Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-supervisor-solution/",
+        "description": "Sales Supervisor Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Sales Support Specialist Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-support-specialist-solution/",
+        "description": "Sales Support Specialist Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Senior Insurance Agent Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/senior-insurance-agent-solution/",
+        "description": "Senior Insurance Agent Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Senior Sales Professional Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/senior-sales-professional-solution/",
+        "description": "Senior Sales Professional Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Server Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/server-solution/",
+        "description": "Server Solution",
+        "duration": "Unknown",
+        "test_type": "B, A, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Service Associate Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/service-associate-solution/",
+        "description": "Service Associate Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Service Supervisor Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/service-supervisor-solution/",
+        "description": "Service Supervisor Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Stock Clerk Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/stock-clerk-solution/",
+        "description": "Stock Clerk Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Store Manager 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/store-manager-7-0-solution/",
+        "description": "Store Manager 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Store Manager 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/store-manager-7-1-%28americas%29/",
+        "description": "Store Manager 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Account Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/account-manager-solution/",
+        "description": "Account Manager Solution",
+        "duration": "Unknown",
+        "test_type": "C, P, A, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Administrative Professional - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/administrative-professional-short-form/",
+        "description": "Administrative Professional - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, K, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Agency Manager Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/agency-manager-solution/",
+        "description": "Agency Manager Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Apprentice + 8.0 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/apprentice-8-0-job-focused-assessment-4261/",
+        "description": "Apprentice + 8.0 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Apprentice 8.0 Job Focused Assessment",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/apprentice-8-0-job-focused-assessment/",
+        "description": "Apprentice 8.0 Job Focused Assessment",
+        "duration": "Unknown",
+        "test_type": "B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Bank Administrative Assistant - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bank-administrative-assistant-short-form/",
+        "description": "Bank Administrative Assistant - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Bank Collections Agent - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bank-collections-agent-short-form/",
+        "description": "Bank Collections Agent - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Bank Operations Supervisor - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bank-operations-supervisor-short-form/",
+        "description": "Bank Operations Supervisor - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Bilingual Spanish Reservation Agent Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bilingual-spanish-reservation-agent-solution/",
+        "description": "Bilingual Spanish Reservation Agent Solution",
+        "duration": "Unknown",
+        "test_type": "B, P, S, A",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Bookkeeping, Accounting, Auditing Clerk Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/bookkeeping-accounting-auditing-clerk-short-form/",
+        "description": "Bookkeeping, Accounting, Auditing Clerk Short Form",
+        "duration": "Unknown",
+        "test_type": "P, S, K, B, A",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Branch Manager - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/branch-manager-short-form/",
+        "description": "Branch Manager - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Cashier Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/cashier-solution/",
+        "description": "Cashier Solution",
+        "duration": "Unknown",
+        "test_type": "B, A, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Teller 7.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/teller-7-0/",
+        "description": "Teller 7.0",
+        "duration": "Unknown",
+        "test_type": "B, K, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Teller with Sales - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/teller-with-sales-short-form/",
+        "description": "Teller with Sales - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Transcriptionist Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/transcriptionist-solution/",
+        "description": "Transcriptionist Solution",
+        "duration": "Unknown",
+        "test_type": "A, B, K, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Workplace Safety - Individual 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-individual-7-0-solution/",
+        "description": "Workplace Safety - Individual 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Workplace Safety - Individual 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-individual-7-1-solution/",
+        "description": "Workplace Safety - Individual 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Workplace Safety - Team 7.0 Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-team-7-0-solution/",
+        "description": "Workplace Safety - Team 7.0 Solution",
+        "duration": "Unknown",
+        "test_type": "B",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Workplace Safety - Team 7.1 (Americas)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-team-7-1-%28americas%29/",
+        "description": "Workplace Safety - Team 7.1 (Americas)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Workplace Safety - Team 7.1 (International)",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-team-7-1-solution/",
+        "description": "Workplace Safety - Team 7.1 (International)",
+        "duration": "Unknown",
+        "test_type": "B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Workplace Safety Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety-solution/",
+        "description": "Workplace Safety Solution",
+        "duration": "Unknown",
+        "test_type": "B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Claims/Operations Supervisor Solution",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/claimsoperations-supervisor-solution/",
+        "description": "Claims/Operations Supervisor Solution",
+        "duration": "Unknown",
+        "test_type": "P, S, A, B",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Contact Center Customer Service + 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-customer-service-8-0/",
+        "description": "Contact Center Customer Service + 8.0",
+        "duration": "Unknown",
+        "test_type": "A, B, C, P, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Customer Service 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-customer-service-8-0-4269/",
+        "description": "Contact Center Customer Service 8.0",
+        "duration": "Unknown",
+        "test_type": "S, B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Manager - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-manager-short-form/",
+        "description": "Contact Center Manager - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Contact Center Sales & Service + 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-sales-and-service-8-0/",
+        "description": "Contact Center Sales & Service + 8.0",
+        "duration": "Unknown",
+        "test_type": "P, B, C, A, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Sales & Service 8.0",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-sales-and-service-8-0-4268/",
+        "description": "Contact Center Sales & Service 8.0",
+        "duration": "Unknown",
+        "test_type": "S, B, C, P",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Contact Center Team Lead/Coach - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-team-leadcoach-short-form/",
+        "description": "Contact Center Team Lead/Coach - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Contact Centre Agent Solution - UK",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-centre-agent-solution-uk/",
+        "description": "Contact Centre Agent Solution - UK",
+        "duration": "Unknown",
+        "test_type": "A, B, P, S",
+        "remote": "Yes",
+        "adaptive": "No"
+    },
+    {
+        "name": "Customer Service - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-short-form/",
+        "description": "Customer Service - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Customer Service - Short Form - UK",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-short-form-uk/",
+        "description": "Customer Service - Short Form - UK",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Customer Service with Sales - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-with-sales-short-form/",
+        "description": "Customer Service with Sales - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    },
+    {
+        "name": "Director - Short Form",
+        "url": "https://www.shl.com/solutions/products/product-catalog/view/director-short-form/",
+        "description": "Director - Short Form",
+        "duration": "Unknown",
+        "test_type": "A, B, P",
+        "remote": "Yes",
+        "adaptive": "Yes"
+    }
+]

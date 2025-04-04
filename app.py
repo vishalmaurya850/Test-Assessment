@@ -22,7 +22,7 @@ with open("shl_assessments_enriched.json", "r") as f:
     assessments = json.load(f)
 embeddings = np.load("shl_embeddings_enriched.npy")
 index = faiss.read_index("shl_faiss_index_enriched.index")
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+embedder = SentenceTransformer("all-MiniLM-L6-v2",device="cpu")
 
 # Configure Gemini API
 api_key=os.getenv('GEMINI_API_KEY')  # Replace with your key

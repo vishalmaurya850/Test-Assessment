@@ -7,7 +7,6 @@ openpyxl
 sentence-transformers
 scikit-learn
 transformers
-torch
 tensorflow
 faiss-cpu
 flask

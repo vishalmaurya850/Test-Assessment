@@ -16,27 +16,41 @@ app = Flask(__name__)
 CORS(app, resources={r"/recommend": {"origins": "https://shlassessment.vercel.app"}})
 logging.basicConfig(level=logging.INFO)
 
-# Load data at startup
+# Load minimal data at startup
 try:
     with open("shl_assessments_enriched.json", "r") as f:
         assessments = json.load(f)
-    embeddings = np.load("shl_embeddings_enriched.npy")
-    index = faiss.read_index("shl_faiss_index_enriched.index")
-    from sentence_transformers import SentenceTransformer
-    embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
-    logging.info("Successfully loaded data and embedder")
+    logging.info("Loaded assessments data")
 except Exception as e:
-    logging.error(f"Failed to initialize data or embedder: {e}")
-    raise  # Fail fast if setup fails
-    
+    logging.error(f"Failed to load assessments: {e}")
+    raise
+
+# Defer heavy loading
+embeddings = None
+index = None
+embedder = None
+
+def initialize_search():
+    global embeddings, index, embedder
+    if embeddings is None or index is None or embedder is None:
+        try:
+            embeddings = np.load("shl_embeddings_enriched.npy")
+            index = faiss.read_index("shl_faiss_index_enriched.index")
+            from sentence_transformers import SentenceTransformer
+            embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+            logging.info("Initialized search components")
+        except Exception as e:
+            logging.error(f"Failed to initialize search: {e}")
+            raise
+
 # Configure Gemini API
 api_key=os.getenv('GEMINI_API_KEY')  # Replace with your key
 genai.configure(api_key=api_key)  # Adjust if needed
 model = genai.GenerativeModel("models/gemini-2.0-flash-thinking-exp-1219") # Adjust if needed
 
-
-def retrieve_assessments(query, k=20):
-    query_embedding = embedder.encode([query])
+def retrieve_assessments(query, k=5):  # Further reduced k
+    initialize_search()
+    query_embedding = embedder.encode([query], show_progress_bar=False)
     distances, indices = index.search(query_embedding, k)
     return [assessments[i] for i in indices[0]]
 

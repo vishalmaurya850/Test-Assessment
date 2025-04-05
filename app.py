@@ -1,28 +1,31 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+import os
 import numpy as np
-from sentence_transformers import SentenceTransformer
 import faiss
 import json
 import google.generativeai as genai
 import re
-import os
-from dotenv import load_dotenv
-from flask_cors import CORS
 import logging
 
-
-load_dotenv()
-
 app = Flask(__name__)
-CORS(app)
-logging.basicConfig(level=logging.DEBUG)
+CORS(app, resources={r"/recommend": {"origins": "https://shlassessment.vercel.app"}})
+logging.basicConfig(level=logging.INFO)
 
-# Load precomputed data
+# Load minimal data at startup
 with open("shl_assessments_enriched.json", "r") as f:
     assessments = json.load(f)
 embeddings = np.load("shl_embeddings_enriched.npy")
 index = faiss.read_index("shl_faiss_index_enriched.index")
-embedder = SentenceTransformer("all-MiniLM-L6-v2",device="cpu")
+
+# Defer heavy model loading to first request
+embedder = None
+def get_embedder():
+    global embedder
+    if embedder is None:
+        from sentence_transformers import SentenceTransformer
+        embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+    return embedder
 
 # Configure Gemini API
 api_key=os.getenv('GEMINI_API_KEY')  # Replace with your key

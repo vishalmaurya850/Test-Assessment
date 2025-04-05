@@ -1,13 +1,9 @@
 requests
 beautifulsoup4
-lxml
 pandas
 numpy
-openpyxl
 sentence-transformers
 scikit-learn
-transformers
-tensorflow
 faiss-cpu
 flask
 google-generativeai

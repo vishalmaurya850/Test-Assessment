@@ -16,21 +16,19 @@ app = Flask(__name__)
 CORS(app, resources={r"/recommend": {"origins": "https://shlassessment.vercel.app"}})
 logging.basicConfig(level=logging.INFO)
 
-# Load minimal data at startup
-with open("shl_assessments_enriched.json", "r") as f:
-    assessments = json.load(f)
-embeddings = np.load("shl_embeddings_enriched.npy")
-index = faiss.read_index("shl_faiss_index_enriched.index")
-
-# Defer heavy model loading to first request
-embedder = None
-def get_embedder():
-    global embedder
-    if embedder is None:
-        from sentence_transformers import SentenceTransformer
-        embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
-    return embedder
-
+# Load data at startup
+try:
+    with open("shl_assessments_enriched.json", "r") as f:
+        assessments = json.load(f)
+    embeddings = np.load("shl_embeddings_enriched.npy")
+    index = faiss.read_index("shl_faiss_index_enriched.index")
+    from sentence_transformers import SentenceTransformer
+    embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+    logging.info("Successfully loaded data and embedder")
+except Exception as e:
+    logging.error(f"Failed to initialize data or embedder: {e}")
+    raise  # Fail fast if setup fails
+    
 # Configure Gemini API
 api_key=os.getenv('GEMINI_API_KEY')  # Replace with your key
 genai.configure(api_key=api_key)  # Adjust if needed

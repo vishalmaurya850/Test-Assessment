@@ -107,18 +107,21 @@ def rank_with_gemini(query, retrieved_assessments):
         logging.error(f"Gemini API error: {e}")
         return retrieved_assessments[:10], ["Fallback: No ranking due to API error"] * min(10, len(retrieved_assessments))
 
-@app.route("/recommend", methods=["POST"])
+@app.route("/recommend", methods=["POST", "OPTIONS"])
 def recommend():
     if request.method == "OPTIONS":
-        return "", 200  # Handle CORS preflight
+        return "", 200
     data = request.get_json()
-    query = data.get("query", "")
+    query = data.get("query", "").strip()
     if not query:
         return jsonify({"error": "Query is required"}), 400
 
-    initial_assessments = retrieve_assessments(query)
-    logging.debug(f"Initial Assessments: {[a['name'] for a in initial_assessments]}")
-    ranked_assessments, explanations = rank_with_gemini(query, initial_assessments)
+    try:
+        initial_assessments = retrieve_assessments(query)
+        ranked_assessments, explanations = rank_with_gemini(query, initial_assessments)
+    except Exception as e:
+        logging.error(f"Processing failed: {e}")
+        return jsonify({"error": "Internal server error"}), 500
 
     response = {
         "query": query,
@@ -131,14 +134,17 @@ def recommend():
                 "description": a["description"],
                 "job_levels": a["job_levels"],
                 "languages": a["languages"],
-                "explanation": explanations[i] if i < len(explanations) else "No explanation provided."
+                "explanation": explanations[i]
             }
             for i, a in enumerate(ranked_assessments)
         ]
     }
-    logging.debug(f"Response JSON: {json.dumps(response, indent=2)}")
     return jsonify(response)
 
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "healthy"}), 200
+
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 5000))  # Default to 5000 locally, use Render's PORT in production
-    app.run(host="0.0.0.0", port=port, debug=True)
+    port = int(os.getenv("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)

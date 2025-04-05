@@ -7,6 +7,10 @@ import json
 import google.generativeai as genai
 import re
 import logging
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app, resources={r"/recommend": {"origins": "https://shlassessment.vercel.app"}})

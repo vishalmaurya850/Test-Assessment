@@ -7,7 +7,6 @@ import json
 import google.generativeai as genai
 import re
 import logging
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -25,35 +24,23 @@ except Exception as e:
     logging.error(f"Failed to load assessments: {e}")
     raise
 
-# Defer heavy loading
-embeddings = None
-index = None
-embedder = None
-
-def initialize_search():
-    global embeddings, index, embedder
-    if embeddings is None or index is None or embedder is None:
-        try:
-            embeddings = np.load("shl_embeddings_enriched.npy")
-            index = faiss.read_index("shl_faiss_index_enriched.index")
-            from sentence_transformers import SentenceTransformer
-            embedder = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
-            logging.info("Initialized search components")
-        except Exception as e:
-            logging.error(f"Failed to initialize search: {e}")
-            raise
-
 # Configure Gemini API
 api_key=os.getenv('GEMINI_API_KEY')  # Replace with your key
 genai.configure(api_key=api_key)  # Adjust if needed
 model = genai.GenerativeModel("models/gemini-2.0-flash-thinking-exp-1219") # Adjust if needed
 
-def retrieve_assessments(query, k=5):  # Further reduced k
-    initialize_search()
-    query_embedding = embedder.encode([query], show_progress_bar=False)
-    distances, indices = index.search(query_embedding, k)
-    return [assessments[i] for i in indices[0]]
-
+def retrieve_assessments(query, k=5):
+    # Simple keyword-based fallback
+    query_words = set(query.lower().split())
+    scored_assessments = []
+    for assessment in assessments:
+        desc_words = set(assessment["description"].lower().split())
+        score = len(query_words.intersection(desc_words))
+        if score > 0:
+            scored_assessments.append((score, assessment))
+    scored_assessments.sort(reverse=True)
+    return [a[1] for a in scored_assessments[:k]]
+    
 def rank_with_gemini(query, retrieved_assessments):
     try:
         prompt = f"""

@@ -38,7 +38,8 @@ def retrieve_assessments(query, k=5):
         score = len(query_words.intersection(desc_words))
         if score > 0:
             scored_assessments.append((score, assessment))
-    scored_assessments.sort(reverse=True)
+    # Sort by score (first element of tuple) in descending order
+    scored_assessments.sort(key=lambda x: x[0], reverse=True)
     return [a[1] for a in scored_assessments[:k]]
     
 def rank_with_gemini(query, retrieved_assessments):
